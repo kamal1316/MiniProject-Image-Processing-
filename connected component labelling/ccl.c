@@ -6,7 +6,7 @@
 #define min(x,y) x<y?x:y
 #define max(x,y) x>y?x:y
 
-int width, height;												//image dimensions
+int width, height;												 //image dimensions
 int *p = NULL, *label = NULL;
 int *minx = NULL, *miny = NULL, *maxx = NULL, *maxy = NULL;		//array to hold the rectangular corrdinates for each label
 int mni, mxi, mnj, mxj;
